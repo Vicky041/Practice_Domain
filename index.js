@@ -43,14 +43,14 @@
 // let i = 0, i less than and equal to 20
 // let j = 0, j less than and equal to 10
 
-for(let i = 0; i <= 20; i++){
-    for(let j = 0; j <= 10; j++){
-        if(j===5){
-            break;
-        }
-        console.log(j);
-    }
-}
+// for(let i = 0; i <= 20; i++){
+//     for(let j = 0; j <= 10; j++){
+//         if(j===5){
+//             break;
+//         }
+//         console.log(j);
+//     }
+// }
 
 
 
@@ -79,7 +79,16 @@ for(let i = 0; i <= 20; i++){
 
 // let num = Number(str); // becomes a number 123
 
-// alert(typeof num); // number
+// alert(typeof num); // null
+
+
+
+//const math = require('./math')
+const { add, sub } = require('./math')
+
+console.log(add(10, 10))
+console.log(sub(10, 10))
+
 
 
 
